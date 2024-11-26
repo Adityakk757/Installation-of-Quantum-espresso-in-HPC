@@ -1,0 +1,20 @@
+# Module avail 
+[List of Modules]
+[Select required modules : openmpi a/c to the QE version]
+
+# Module load [Module selected]
+
+# cd [Main Dir]
+
+# tar -xzvf [q-e.tar.gz-package]
+
+# cd [qe dir]
+
+# ./configure --enable-parallel --enable-openmp --prefix="qe-dir/bin/"
+
+# make pw -j[no of cores]
+
+
+# make gwl -j[no of cores]    ---for GWW-----
+
+# make all -j[no of cores]    ---for-all-at-once-----
